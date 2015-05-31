@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  25 MAY 2015 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  1 JUN 2015 01:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,114 +105,91 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-Runaway argument?
-{{/Users/DJYoon/Desktop/LaTex/} \DeclareGraphicsExtensions {.pdf,.png\ETC.
-./HeadScope(Latex)_1.tex:23: Paragraph ended before \graphicspath was complete.
-<to be read again> 
-                   \par 
-l.23 
-     
-? 
-./HeadScope(Latex)_1.tex:23: Emergency stop.
-<to be read again> 
-                   \par 
-l.23 
-     
-End of file on the terminal!
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
- 
-Here is how much of TeX's memory you used:
- 907 strings out of 493117
- 12168 string characters out of 6135433
- 68582 words of memory out of 5000000
- 4430 multiletter control sequences out of 15000+600000
- 3938 words of font info for 15 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 27i,0n,19p,274b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-./HeadScope(Latex)_1.tex:23:  ==> Fatal error occurred, no output PDF file prod
-uced!
-20
-\Gm@layg
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: legalpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
-* v-part:(T,H,B)=(121.41483pt, 708.2429pt, 182.12227pt)
-* \paperwidth=614.295pt
-* \paperheight=1011.78pt
-* \textwidth=430.00462pt
-* \textheight=708.2429pt
-* \oddsidemargin=19.8752pt
-* \evensidemargin=19.8752pt
-* \topmargin=12.14484pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+)
+(./HeadScope(Latex)_1.aux)
+\openout1 = `HeadScope(Latex)_1.aux'.
 
-[1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./HeadScope(Latex)_1.toc)
-\tf@toc=\write3
-\openout3 = `HeadScope(Latex)_1.toc'.
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen122
+\scratchbox=\box52
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen123
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-./HeadScope(Latex)_1.tex:60: Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.60 \begin
-           {table}
-? 
-./HeadScope(Latex)_1.tex:60: Emergency stop.
-<to be read again> 
-                   \@@par 
-l.60 \begin
-           {table}
-End of file on the terminal!
-
- 
-Here is how much of TeX's memory you used:
- 981 strings out of 493117
- 13334 string characters out of 6135433
- 75409 words of memory out of 5000000
- 4497 multiletter control sequences out of 15000+600000
- 6399 words of font info for 23 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 23i,4n,43p,853b,166s stack positions out of 5000i,500n,10000p,200000b,80000s
-./HeadScope(Latex)_1.tex:60:  ==> Fatal error occurred, no output PDF file prod
-uced!
-X's memory you used:
- 1000 strings out of 493117
- 13538 string characters out of 6135433
- 75409 words of memory out of 5000000
- 4509 multiletter control sequences out of 15000+600000
- 9144 words of font info for 32 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 23i,7n,43p,853b,186s stack positions out of 5000i,500n,10000p,200000b,80000s
-./HeadScope(Latex)_1.tex:63:  ==> Fatal error occurred, no output PDF file prod
-uced!
-xtensions (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
@@ -272,15 +249,15 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Unknown.jpeg, id=1, 223.83624pt x 226.8475pt>
-File: Unknown.jpeg Graphic file (type jpg)
- <use Unknown.jpeg>
-Package pdftex.def Info: Unknown.jpeg used on input line 30.
-(pdftex.def)             Requested size: 223.8357pt x 226.84694pt.
+<TeamName.png, id=1, 352.31625pt x 312.16624pt>
+File: TeamName.png Graphic file (type png)
+ <use TeamName.png>
+Package pdftex.def Info: TeamName.png used on input line 30.
+(pdftex.def)             Requested size: 352.31538pt x 312.16548pt.
  [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Unkno
-wn.jpeg>]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./TeamN
+ame.png>]
 (./HeadScope(Latex)_1.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
@@ -329,55 +306,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--194
 
  []
 
-<HeadScope.png, id=25, 135.3858pt x 135.3858pt>
-File: HeadScope.png Graphic file (type png)
- <use HeadScope.png>
-Package pdftex.def Info: HeadScope.png used on input line 208.
-(pdftex.def)             Requested size: 135.38547pt x 135.38547pt.
- [4 <./HeadScope.png>] <Main.png, id=31, 224.037pt x 63.5976pt>
-File: Main.png Graphic file (type png)
- <use Main.png>
-Package pdftex.def Info: Main.png used on input line 215.
+<HeadScope_APP.png, id=27, 500.87125pt x 366.36874pt>
+File: HeadScope_APP.png Graphic file (type png)
+ <use HeadScope_APP.png>
+Package pdftex.def Info: HeadScope_APP.png used on input line 208.
+(pdftex.def)             Requested size: 250.435pt x 183.18391pt.
+
+[4 <./HeadScope_APP.png>]
+</Users/DJYoon/Desktop/LaTex/Main.png, id=32, 224.037pt x 63.5976pt>
+File: /Users/DJYoon/Desktop/LaTex/Main.png Graphic file (type png)
+
+<use /Users/DJYoon/Desktop/LaTex/Main.png>
+Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/Main.png used on input lin
+e 215.
 (pdftex.def)             Requested size: 224.03644pt x 63.59743pt.
 
-<Jumper.png, id=32, 183.5658pt x 137.7948pt>
+Underfull \hbox (badness 10000) in paragraph at lines 217--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--223
+
+ []
+
+<Jumper.png, id=33, 183.5658pt x 137.7948pt>
 File: Jumper.png Graphic file (type png)
  <use Jumper.png>
-Package pdftex.def Info: Jumper.png used on input line 223.
+Package pdftex.def Info: Jumper.png used on input line 228.
 (pdftex.def)             Requested size: 183.56534pt x 137.79445pt.
 
-<View.png, id=33, 247.6452pt x 103.587pt>
-File: View.png Graphic file (type png)
- <use View.png>
-Package pdftex.def Info: View.png used on input line 228.
-(pdftex.def)             Requested size: 247.64458pt x 103.58675pt.
+</Users/DJYoon/Desktop/LaTex/View.png, id=34, 247.6452pt x 103.587pt>
+File: /Users/DJYoon/Desktop/LaTex/View.png Graphic file (type png)
 
-<Cine.png, id=34, 198.0198pt x 247.1634pt>
+<use /Users/DJYoon/Desktop/LaTex/View.png>
+Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/View.png used on input lin
+e 233.
+(pdftex.def)             Requested size: 247.64458pt x 103.58675pt.
+ [5 </Users/DJYoon/Desktop/LaTex/Main.png> <./Jumper.png> </Users/DJYoon/Deskto
+p/LaTex/View.png>]
+<Cine.png, id=42, 198.0198pt x 247.1634pt>
 File: Cine.png Graphic file (type png)
  <use Cine.png>
-Package pdftex.def Info: Cine.png used on input line 234.
+Package pdftex.def Info: Cine.png used on input line 239.
 (pdftex.def)             Requested size: 198.01932pt x 247.16278pt.
- [5 <./Main.png> <./Jumper.png> <./View.png>] [6 <./Cine.png>] (./HeadScope(Lat
-ex)_1.aux) ) 
+ [6 <./Cine.png>]
+[7] (./HeadScope(Latex)_1.aux) ) 
 Here is how much of TeX's memory you used:
- 2263 strings out of 493117
- 32493 string characters out of 6135433
+ 2261 strings out of 493117
+ 32729 string characters out of 6135433
  103851 words of memory out of 5000000
  5702 multiletter control sequences out of 15000+600000
  10101 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,1845b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-l12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb>
-Output written on HeadScope(Latex)_1.pdf (8 pages, 870094 bytes).
+ 38i,10n,43p,1844b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb>
+Output written on HeadScope(Latex)_1.pdf (9 pages, 857218 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
