@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  3 JUN 2015 03:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  3 JUN 2015 08:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,14 +293,7 @@ Package pdftex.def Info: TeamName.png used on input line 36.
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./TeamN
 ame.png>]
-(./HeadScope(Latex)_1.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
-)
+(./HeadScope(Latex)_1.toc)
 \tf@toc=\write3
 \openout3 = `HeadScope(Latex)_1.toc'.
 
@@ -312,6 +305,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 80.
+
 Underfull \hbox (badness 3333) in paragraph at lines 87--87
 []\OT1/cmr/m/n/12 Discuss about whole fi-nan-cial
  []
@@ -486,20 +486,11 @@ File: Github.png Graphic file (type png)
  <use Github.png>
 Package pdftex.def Info: Github.png used on input line 281.
 (pdftex.def)             Requested size: 2005.48761pt x 1463.46393pt.
- [9 <./Github.png>] <HeadScope_APP.png, id=59, 500.87125pt x 366.36874pt>
-File: HeadScope_APP.png Graphic file (type png)
-
-<use HeadScope_APP.png>
-Package pdftex.def Info: HeadScope_APP.png used on input line 292.
-(pdftex.def)             Requested size: 250.435pt x 183.18391pt.
-
-</Users/DJYoon/Desktop/LaTex/Main.png, id=60, 224.037pt x 63.5976pt>
-File: /Users/DJYoon/Desktop/LaTex/Main.png Graphic file (type png)
-
-<use /Users/DJYoon/Desktop/LaTex/Main.png>
-Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/Main.png used on input lin
-e 298.
-(pdftex.def)             Requested size: 224.03644pt x 63.59743pt.
+ [9 <./Github.png>] <app1.png, id=59, 284.5029pt x 284.5029pt>
+File: app1.png Graphic file (type png)
+ <use app1.png>
+Package pdftex.def Info: app1.png used on input line 292.
+(pdftex.def)             Requested size: 142.2511pt x 142.2511pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 300--306
 
@@ -510,32 +501,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--306
 
  []
 
-<Jumper.png, id=61, 183.5658pt x 137.7948pt>
-File: Jumper.png Graphic file (type png)
- <use Jumper.png>
-Package pdftex.def Info: Jumper.png used on input line 311.
-(pdftex.def)             Requested size: 183.56534pt x 137.79445pt.
- [10 <./HeadScope_APP.png> </Users/DJYoon/Desktop/LaTex/Main.png> <./Jumper.png
->]
-</Users/DJYoon/Desktop/LaTex/View.png, id=68, 247.6452pt x 103.587pt>
-File: /Users/DJYoon/Desktop/LaTex/View.png Graphic file (type png)
+<Panorama.png, id=60, 213.79875pt x 207.77625pt>
+File: Panorama.png Graphic file (type png)
+ <use Panorama.png>
+Package pdftex.def Info: Panorama.png used on input line 311.
+(pdftex.def)             Requested size: 106.89911pt x 103.88786pt.
 
-<use /Users/DJYoon/Desktop/LaTex/View.png>
-Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/View.png used on input lin
-e 316.
-(pdftex.def)             Requested size: 247.64458pt x 103.58675pt.
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
-<Cine.png, id=69, 198.0198pt x 247.1634pt>
-File: Cine.png Graphic file (type png)
- <use Cine.png>
-Package pdftex.def Info: Cine.png used on input line 322.
-(pdftex.def)             Requested size: 198.01932pt x 247.16278pt.
- [11 </Users/DJYoon/Desktop/LaTex/View.png> <./Cine.png>]
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+ []
+
+[10 <./app1.png> <./Panorama.png>]
+<Treasure_hunter.png, id=66, 102.3825pt x 102.3825pt>
+File: Treasure_hunter.png Graphic file (type png)
+
+<use Treasure_hunter.png>
+Package pdftex.def Info: Treasure_hunter.png used on input line 321.
+(pdftex.def)             Requested size: 51.19112pt x 51.19112pt.
+ <Volume.png, id=67, 225.84375pt x 225.84375pt>
+File: Volume.png Graphic file (type png)
+
+<use Volume.png>
+Package pdftex.def Info: Volume.png used on input line 332.
+(pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
+ <Preference.png, id=68, 160.6pt x 160.6pt>
+File: Preference.png Graphic file (type png)
+
+<use Preference.png>
+Package pdftex.def Info: Preference.png used on input line 341.
+(pdftex.def)             Requested size: 80.29979pt x 80.29979pt.
+ [11 <./Treasure_hunter.png> <./Volume.png>] [12 <./Preference.png>] (/usr/loca
+l/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
-) [12]
-Missing character: There is no ¡ in font cmtt10!
-Missing character: There is no ¯ in font cmtt10!
+)
 Missing character: There is no ¡ in font cmtt10!
 Missing character: There is no ¯ in font cmtt10!
 Missing character: There is no ¡ in font cmtt10!
@@ -546,16 +544,18 @@ Missing character: There is no ¯ in font cmtt10!
 [13]
 Missing character: There is no ¡ in font cmtt10!
 Missing character: There is no ¯ in font cmtt10!
+Missing character: There is no ¡ in font cmtt10!
+Missing character: There is no ¯ in font cmtt10!
 
-Overfull \hbox (176.36153pt too wide) in paragraph at lines 445--446
+Overfull \hbox (176.36153pt too wide) in paragraph at lines 442--443
 [][][][][][][][][][][][][][][][][][]  
  []
 
 [14] [15] [16] (./HeadScope(Latex)_1.aux) ) 
 Here is how much of TeX's memory you used:
  3870 strings out of 493117
- 55671 string characters out of 6135433
- 211382 words of memory out of 5000000
+ 55507 string characters out of 6135433
+ 212176 words of memory out of 5000000
  7283 multiletter control sequences out of 15000+600000
  10916 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -569,9 +569,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on HeadScope(Latex)_1.pdf (18 pages, 1510820 bytes).
+Output written on HeadScope(Latex)_1.pdf (18 pages, 979505 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)

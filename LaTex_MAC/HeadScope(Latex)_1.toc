@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {5.2}Specification of Loading App Page}{10}
 \contentsline {subsection}{\numberline {5.3}Specification of Main App Page}{10}
 \contentsline {subsection}{\numberline {5.4}Specification of Panorama}{10}
-\contentsline {subsection}{\numberline {5.5}Specification of 3D Cube}{11}
-\contentsline {subsection}{\numberline {5.6}Specification of Volume}{12}
+\contentsline {subsection}{\numberline {5.5}Specification of Treasure Hunt}{11}
+\contentsline {subsection}{\numberline {5.6}Specification of Volume}{11}
 \contentsline {subsection}{\numberline {5.7}Specification of Preferences}{12}
 \contentsline {section}{\numberline {6}Architecture Design and Implementation}{13}
