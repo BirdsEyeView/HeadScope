@@ -1,24 +1,28 @@
 \contentsline {section}{\numberline {1}Abstract}{1}
 \contentsline {section}{\numberline {2}Introduction}{1}
-\contentsline {section}{\numberline {3}Requirement}{2}
-\contentsline {subsection}{\numberline {3.1}Requirement for Head Mounted Display}{2}
-\contentsline {subsubsection}{\numberline {3.1.1}Overview}{2}
-\contentsline {subsubsection}{\numberline {3.1.2}Google CardBoard}{2}
-\contentsline {subsubsection}{\numberline {3.1.3}Input Device}{2}
-\contentsline {subsubsection}{\numberline {3.1.4}Output Device}{2}
-\contentsline {subsubsection}{\numberline {3.1.5}Requirement for Application Logo}{2}
-\contentsline {subsubsection}{\numberline {3.1.6}Requirement for loading page}{3}
-\contentsline {subsubsection}{\numberline {3.1.7}Requirement for main page}{3}
-\contentsline {subsubsection}{\numberline {3.1.8}Requirement for Jumper}{3}
-\contentsline {subsubsection}{\numberline {3.1.9}Requirement for Cine}{3}
-\contentsline {subsection}{\numberline {3.2}Development Environment}{3}
-\contentsline {subsubsection}{\numberline {3.2.1}Choice of software development platform}{4}
-\contentsline {subsubsection}{\numberline {3.2.2}Software in Use}{4}
-\contentsline {subsection}{\numberline {3.3}Specification}{4}
-\contentsline {subsubsection}{\numberline {3.3.1}Specification of App Icon}{4}
-\contentsline {subsubsection}{\numberline {3.3.2}Specification of Loading App Page}{4}
-\contentsline {subsubsection}{\numberline {3.3.3}Specification of Main App Page}{5}
-\contentsline {subsubsection}{\numberline {3.3.4}Specification of Jumper}{5}
-\contentsline {subsubsection}{\numberline {3.3.5}Specification of 3D Cube}{6}
-\contentsline {subsubsection}{\numberline {3.3.6}Specification of Volume}{6}
-\contentsline {subsubsection}{\numberline {3.3.7}Specification of Preferences}{6}
+\contentsline {section}{\numberline {3}Android OS based Application}{2}
+\contentsline {subsection}{\numberline {3.1}Android Versions}{2}
+\contentsline {subsection}{\numberline {3.2}Technology Features}{2}
+\contentsline {subsection}{\numberline {3.3}HeadScope}{3}
+\contentsline {section}{\numberline {4}Requirement}{4}
+\contentsline {subsection}{\numberline {4.1}Requirement for a Head Mounted Display}{4}
+\contentsline {subsubsection}{\numberline {4.1.1}Google CardBoard}{4}
+\contentsline {subsection}{\numberline {4.2}Requirement for Application Logo}{7}
+\contentsline {subsection}{\numberline {4.3}Requirement for loading page}{7}
+\contentsline {subsubsection}{\numberline {4.3.1}Requirement for main page}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Requirement for Jumper}{7}
+\contentsline {subsubsection}{\numberline {4.3.3}Requirement for Cine}{7}
+\contentsline {subsection}{\numberline {4.4}Development Environment}{8}
+\contentsline {subsubsection}{\numberline {4.4.1}Choice of software development platform}{8}
+\contentsline {subsubsection}{\numberline {4.4.2}Software in Use}{8}
+\contentsline {section}{\numberline {5}Specification}{9}
+\contentsline {subsection}{\numberline {5.1}Specification of App Icon}{9}
+\contentsline {subsection}{\numberline {5.2}Specification of Loading App Page}{9}
+\contentsline {subsection}{\numberline {5.3}Specification of Main App Page}{9}
+\contentsline {subsection}{\numberline {5.4}Specification of Jumper}{9}
+\contentsline {subsection}{\numberline {5.5}Specification of 3D Cube}{10}
+\contentsline {subsection}{\numberline {5.6}Specification of Volume}{11}
+\contentsline {subsection}{\numberline {5.7}Specification of Preferences}{11}
+\contentsline {section}{\numberline {6}Architecture Design and Implementation}{12}
+\contentsline {subsection}{\numberline {6.1}Software Module for Preference}{14}
+\contentsline {section}{\numberline {7}Use Cases}{14}

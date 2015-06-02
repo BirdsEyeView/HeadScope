@@ -5,7 +5,13 @@
 \usepackage{multicol} 
 \usepackage{graphicx}
 \graphicspath{{/Users/DJYoon/Desktop/LaTex/}}
-\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}	
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
 
 
 %Page
@@ -104,44 +110,108 @@ Screen displays are primarily advancing to a sharper resolution with larger scre
 
 Films. Film is an incredible medium that is designed with a group of rectangle pictures that are played in a sequence. Though these pictures it can tell us stories in different ways. Film is like a window that lets you see the other world. However, our team wanted something else, we wanted something that allows you to be in the other world. It is called Virtual Reality.  Virtual Reality is a machine. But through this machine it allows us to have access to another world and feel present in the world that you are inside. Our team will use the Google Cardboard, which is a box built in the shape of a snorkeling glass. Inside this Google Cardboard there are two lenses that are made of asymmetric biconvex lenses that allows one to experience a 3D reality. Along with the Google Cardboard, we will insert an android smartphone in the form of landscape and build an application that will change 2D to 3D. Inside this application we will install two functions GoogleMap and Cinema Film.   Inside this Google Cardboard, it will let you feel like it is real life, and let you feel the presence of the people you are with. That is why we we chose GoogleMap and Cinema Film. With GoogleMap, it allows users to experience a full 360-degree view of the designated location. It will give them a detailed view and feel as if they are in that location. The Cinema Film will be built so that it allows the users to feel as if they were in the presence of the film.   With Google Cardboard, it will let us see not a view into the world, but the whole world stretched in a rectangle. It is a form of media that can change peoples perception of each other. Our team believes that Virtual Reality has the potential that can change the world. We become more empathetic, and we become more connected. Ultimately, we become more human.
 
+\section{Android OS based Application}
+Being a mobile operating system, android OS is a modified version of Linux, originally developed by a start-up, Android, Inc. As Google entered mobile market, it purchased Android and in a bid to encourage independent development works, it released the developer tools under the open source Apache License. The permissive licensing allows the OS and related software to be modified and distributed by enthusiastic developers, network operators and device manufacturers.
+
+\subsection{Android Versions}
+\begin{table}[htb]
+\centering
+\caption[Android]{Android Version as of May 23, 2015}
+\begin{tabular}{|c|p{4cm}|}
+\hline
+\textbf{Version}& \textbf{Code Name}\\ \hline
+
+1.5 & CupCake.\\ \hline
+1.6 & Donut. \\ \hline
+2.0-2.1 & Eclair \\ \hline
+2.2-2.2.3 & Froyo \\ \hline
+2.3-2.3.7 & Gingerbread \\ \hline
+3.0-3.2.6 & Honeycomb \\ \hline
+4.0-4.0.4 & Ice Cream Sandwich \\ \hline
+4.1-4.3.1 & Jelly Bean \\ \hline
+4.4-4.4.4, 4.4W-4.4W.2 & KitKat \\ \hline
+5.0-5.1.1 & Lollipop \\ \hline
+
+
+\end{tabular}
+\end{table}
+
+\subsection{Technology Features}
+\textit{Android Studio}\\ \\
+Android Studio is an integrated development environment(IDE) for developing on the Android platform. It has an installer that sets up the correct Android SDK and a development environment with an optimized emulator and a set of code templates. The build system can generate multiple apks for debug and release. The Lint tools is used to deal with performance, usability, version compatibility, and other issues.\\ \\
+\newpage \noindent
+\textit{Application Interface and H/W Support} \\ \\
+Based on Direct Manipulation, the on screen objects have been programmed to respond to real world actions like swiping, touching etc. Boasting of a fast and responsive fluidic touch screen, the OS supports various dedicated hardware like proximity sensors, gyroscopes, magnetometer and accelerometer etc. The Home Screen is analogue to the Desktop in a Windows OS.\\ \\
+\textit{Memory Management}\\ \\
+The OS supports multi-threading but depending on the instant memory availability, it can kill application so as to reduce overloading. The RAM management is such so that power consumption is at minimum. As far as third party applications are considered, the SDK provides with ample library entities such as Services, Background Tasks and Foreground Tasks for working with application lifetime.\\ \\
+\textit{Security and Privacy}\\ \\
+Though the OS is immune to normal user usage, but the security flaws can be exploited, as done by the open source community, to get ROOT access (can be used for malicious purposes by crackers) and modify device capabilities. Except that, the device owners¡¯ applications are mostly run in an isolated area of OS called sandbox which restricts access to the system resources and hardware unless the user explicitly gives the access permissions during installation itself. Hence, the app gains access to /data partition through this method and the /data partition only. The newest Android OS versions have enhanced security features such as malware scanners built into system to keep a tab on malicious software downloaded through Google Play or any other third party application. Newer applications now rely on OAUTH 2.0 for secure access to internet.\\ \\
+\textit{Network Connectivity}\\ \\
+The OS supports a full range of connectivity solutions ranging from Bluetooth to ZigBee (through accessory support) and from 2G to LTE support. It supports data packet transmissions through GPRS/EDGE support. Internet can also be accessed through Wi-Fi, WiMAX and shared among other devices through tethering (both over Wi-Fi and USB) support. PC communication is established through device management software using USB and Bluetooth. HTTP service is supported and through use of Google APIs, the phone is an effective GPS enabled device.
+
+\subsection{HeadScope}
+The App "HeadScope" is virtual reality based application which would allow users to view images, watch videos, and even play games in a 3D mode. Depending on their current viewing angle, users are able to turn 360 degree that allows a 360 degree view. 
+
 %Requirement
 %Section
 \section{Requirement}
 %Subsection 1
-\subsection {Requirement for Head Mounted Display}
+\subsection {Requirement for a Head Mounted Display}
+The "Head Mounted Display" is a virtual reality platform that is used to mount with a smartphone. 
 
 %Subsubsection 1
-\subsubsection{Overview}
-A typical HMD has either one or two small displays with lenses and semi-transparent mirrors embedded in a helmet, eyeglasses or visor.
-
 \subsubsection{Google CardBoard}
+The Google Cardboard comprise a piece of cardboard cut into a precise shape, 45 mm focal distance lenses, magnets or capacitive tape, velcro, a rubber band, and an optional near field communication (NFC) tag. A smartphone is inserted in front of the lenses and a Google Cardboard¡©compatible app splits the smartphone display image into two, one for each eye. The lenses create a distortion effect that sends each half to one eye and creates the impression of a stereoscopic 3D image with a wide field of view.
 
 \begin{itemize}
-\item We will use Google Cardboard for several reasons.
-\item Google Cardboard is relatively cheaper than other HMD.
-\item Google Cardboard could use smart phones gyroscope function.(Because some display machines could not use gyroscope function.)
-\item Google Cardboard has very powerful accessibility. It has very reasonable price, and many people can use it without a big burden.
+%
+\item\textbf{Cardboard}\\ 
+Die-cutting template for Google Cardboard can be folded together into a shipping-ready envelope (8.3¡± x 6.72¡± x 0.69¡±).\\[2\baselineskip]
+%
+\includegraphics[width=100mm,scale=0.8]{Cardboard} \\ \\
+%
+
+\newpage\item\textbf{Lens}\\
+Google Cardboard uses 45mm focal distance, asymmetric biconvex lenses. This type of lenses works best to prevent distortion around the edges. \\ 
+\begin{enumerate}
+\item Material needs to be optical PMMA or equivalent
+\item All gates need to be trimmed flush
+\item All contaminants need to be removed from surfaces 6. Lens needs to be RoHS and REACH compliant
+\end{enumerate} 
+\begin{center} 
+\includegraphics[width=50mm,scale=0.8]{lens1}\\
+\includegraphics[width=50mm,scale=0.8]{lens2}\\
+\includegraphics[width=50mm,scale=0.8]{lens3}\\
+\end{center}
+%
+\newpage\item\textbf{Magnetic Pull}\\
+If your viewer is using a magnet based input, use a neodymium ring magnet (at least NH35 grade) as an outside trigger. Google Cardboard ring magnet¡¯s dimensions are 0.740¡± x 0.105¡±.\\
+\begin{center}
+\includegraphics[width=50mm,scale=0.8]{magnet}\\
+\end{center}
+\item\textbf{Inputs}\\
+\begin{enumerate}
+\item Use a ceramic disk magnet with at least C8 grade for Cardboard inside. Ceramic magnet¡¯s dimensions are 0.701¡± x 0.197¡±. Make sure to glue the ceramic \item disk magnet in place, otherwise the whole magnet pair could come off easily and become a swallowing risk.
+\item You can also use different types of inputs, from a simple smartphone screen touch, to Bluetooth-based buttons, various types of conductive and capacitive inputs, and so on.
+\item Make sure that your viewer contains exactly one input. If your viewer uses the screen touch, ensure that there is at most one dedicated area for touching the screen.
+\end{enumerate}
+
+\item\textbf{Miscellaneous Google Cardboard parts (Velcro, stickers, rubber band, print)}
+\begin{enumerate}
+\item Google Cardboard uses two strips of regular-strength, adhesive-backed velcro. Approximate size is: 0.75¡± x 1.25¡± (20mm x 30mm). Make sure that the adhesive is sufficiently strong to not loosen from the cardboard top over time, as the strips will be getting a lot of use.
+\item Similarly, make sure to use a strong adhesive sticker on the magnet side. This is what holds the whole assembly together, and it tends to loosen over time.
+\item Use the rubber band to prevent the phone from sliding out. It is enough for the rubber band to be wrapped around the bottom of the viewer and touch the bottom of the phone it does not need to be wrapped around the box.
+\end{enumerate}
+
 \end{itemize}
 
-\subsubsection{Input Device}
+\subsection{Requirement for Application Logo}
 \begin{enumerate}
-\item Magnetic Pull
-\item Smartphone within gyroscope
-\end{enumerate}
-
-\subsubsection{Output Device}
-\begin{enumerate}
-\item Smartphone (Audio and Screen)
-\item Show Screen through Head Mounted Display
-\end{enumerate}
-
-\subsubsection{Requirement for Application Logo}
-\begin{enumerate}
-\item We will design our application logo, using Adobe Photoshop CS6 and Adobe Illustrator CS6.
+\item We designed our application logo, using Adobe Photoshop CS6 and Adobe Illustrator CS6.
 \item Display it on the Smartphone.
 \end{enumerate}
 
-\subsubsection{Requirement for loading page}
+\subsection{Requirement for loading page}
 \begin{enumerate}
 \item Show our application name
 \item Show our team name
@@ -149,9 +219,12 @@ A typical HMD has either one or two small displays with lenses and semi-transpar
 
 \subsubsection{Requirement for main page}
 \begin{enumerate}
-\item It would have four item
-\item Jumper (Telepresence to Google Earth API)
-\item Cine (Telepresence movie viewer)
+\item It would have five items
+\item Jumper
+\item 3D Cube
+\item Volume
+\item Preferences
+\item Exit
 \end{enumerate}
 
 \subsubsection{Requirement for Jumper}
@@ -200,18 +273,17 @@ Unity 5 Engine\\
 
 %subsection 3
 
-\subsection{Specification}
+\newpage \section{Specification}
 
 %subsubsection 3
 
-\subsubsection{Specification of App Icon}
+\subsection{Specification of App Icon}
 \includegraphics[width=50mm,scale=0.5]{HeadScope_APP}
 
 %subsubsection 4
-\subsubsection{Specification of Loading App Page}
+\subsection{Specification of Loading App Page}
 
-\newpage
-\subsubsection{Specification of Main App Page}
+\subsection{Specification of Main App Page}
 \includegraphics{Main}
 \begin{enumerate}
 \item The Main App Page would have five applications:\\ \\
@@ -224,7 +296,7 @@ Unity 5 Engine\\
 \end{enumerate}
 
 %subsubsection 5
-\subsubsection{Specification of Jumper}
+\subsection{Specification of Jumper}
 \includegraphics{Jumper}
 
 \begin{enumerate}
@@ -235,7 +307,7 @@ Unity 5 Engine\\
 \end{enumerate}
 
 %subsubsection 6
-\subsubsection{Specification of 3D Cube}
+\subsection{Specification of 3D Cube}
 \includegraphics{Cine}
 
 \begin{enumerate}
@@ -246,7 +318,7 @@ Unity 5 Engine\\
 \end{enumerate}
 
 %subsubsection 7
-\subsubsection{Specification of Volume}
+\subsection{Specification of Volume}
 
 %includegraphics{} <-- image of the Volume icon
 
@@ -256,7 +328,7 @@ Unity 5 Engine\\
 \end{enumerate}
 
 %subsubsection 8
-\subsubsection{Specification of Preferences}
+\subsection{Specification of Preferences}
 
 %includegraphics{} <-- image of the Preference icon
 
@@ -277,5 +349,156 @@ close and 100 for pupils that are far apart.
  
 \end{enumerate}
 
+%Section 5
+\section{Architecture Design and Implementation}
+\subsection*{Overall Architecture}
+\subsection*{Directory Organization}
+\subsection*{Software Module for Launcher}
+
+Software modules used in the "Home Launcher" is describe in form of different activities. Multiple activities have been used here to be handled by different functional requirements:
+\lstset{
+  language=Java,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  escapeinside={<@}{@>}
+}
+\begin{lstlisting}
+1.) private void onCreate(Bundle savedInstanceState)
+<@\textcolor{dkgreen}  {Function:}@> Called when the activity is starting. Calls method init()
+
+2.) private void print(String request)
+<@\textcolor{dkgreen}  {Function:}@>prints out String request
+
+3.) private void updateTweens()
+<@\textcolor{dkgreen}  {Function:}@>calculate accelData by adding tweenStep into original accelData
+
+4.) private void prepareToLaunch()
+<@\textcolor{dkgreen}  {Function:}@>convert apps status to ready for launch by adjusting boolean startingApp to true
+
+5.) private void launchApp()
+<@\textcolor{dkgreen}  {Function:}@>adjust AudioManager or call method launch()
+
+6.) private void makeImmersive()
+<@\textcolor{dkgreen}  {Function:}@>compare android version (target SDK_INT >= KITKAT) if true set system ui visibility
+
+7.) public boolean isMyAppLauncherDefault()
+<@\textcolor{dkgreen}  {Function:}@> add activity as a intent. add extra package to array list as an item
+packageName.equals(activity.getPackageName())
+
+8.) public boolean onKeyDown(int keyCode, KeyEvent event)
+<@\textcolor{dkgreen}  {Function:}@> compare keyCode to KeyEvent¡¯s variables (back key, volume up/down key). return boolean.
+
+9.) public boolean onCreateOptionsMenu(Menu menu)
+<@\textcolor{dkgreen}  {Function:}@> Inflate the menu. Add items to the action bar if it is present
+
+10.) public boolean onOptionsItemSelected(MenuItem item)
+<@\textcolor{dkgreen}  {Function:}@>compare MenuItem item¡¯s id to boolean which is calculated by R.id.action_settings or parent¡¯ onOptionsItemSelected(Item)
+	
+11.) protected void onResume()
+<@\textcolor{dkgreen}  {Function:}@> for activity to start interacting with the user.
+calls private SensorManager mSensorManager¡¯s method registerListner that return true if the sensor is supported and successfully enabled.
+
+12.) protected void onPause()
+<@\textcolor{dkgreen}  {Function:}@>called as part of the activity lifecycle when an activity is going into the background, but has not (yet) been killed.
+calls private SensorManager mSensorManager¡¯s method unregisterListner that unregisters a listener for all sensors
+
+13.) public void onSensorChanged(SensorEvent sensorEvent)
+<@\textcolor{dkgreen}  {Function:}@> Calls when sensor values have changed
+
+14.) public void onAccuracyChanged(Sensor sensor, int i)
+<@\textcolor{dkgreen}  {Function:}@> Called when the accuracy of the registered sensor has changed.
+
+<@\textcolor{red}{public class MyView extends View\\ \\
+
+Variables}@>
+
+private Paint paint = new Paint();
+private int width = 0;
+private int height = 0;
+private Rect cursorPosition = new Rect(width / 2 - 1, height / 2 - 1, width / 2 + 1, height / 2 + 1);
+private int appStartAnimationPosition = 0;
+private Rect freeAllocate = new Rect();
+private int selectedApp = -1;
+private long timeSelected = -1;
+private final long selectionTime = 200;
+long timeOfLastFrame = 0;
+Display dis = ((WindowManager)getApplicationContext().getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
+        Bitmap lEyeBit = Bitmap.createBitmap(dis.getWidth() / 2, dis.getHeight(), Bitmap.Config.ARGB_8888);
+        Bitmap rEyeBit = Bitmap.createBitmap(dis.getWidth() / 2, dis.getHeight(), Bitmap.Config.ARGB_8888);
+        Canvas lEye = new Canvas(lEyeBit);
+        Canvas rEye = new Canvas(rEyeBit);
+
+15.) constructor public MyView(Context context)
+<@\textcolor{dkgreen}  {Function:}@> sets variable to super(context), paint, width, volumePanelWidth, height, timeOfLastFrame. calls method gameloop()
+
+16.) private void gameLoop()
+<@\textcolor{dkgreen}  {Function:}@> calls method move(), updateTweens, invalidate()
+if width is 0, then reset width, volumePanelWidth, height, cursorPosition
+if selectedApp is -1 calls for loop installedApps.size() times
+reset rectangle freeAllocate, selected, timeSelected
+if starting app
+then calls method launchApp() or modify appStartAnimationPosition
+
+17.) public void magnetPull()
+<@\textcolor{dkgreen}  {Function:}@>adjust volume or reset rotation
+
+float headMatrix[] = new float[16];
+float headFloats[] = new float[3];
+
+18.) private void move()
+<@\textcolor{dkgreen}  {Function:}@> adjust volumePanelKnobPosition. set installedApps variable through for loop.
+
+19.) float[] getEulerFromMat(float[] rotMatrix)
+local variable : 
+float x, y, z;
+float _11, _12, _13, _14;
+float _21, _22, _23, _24;
+float _31, _32, _33, _34;
+float _41, _42, _43, _44;
+
+<@\textcolor{dkgreen}  {Function:}@> set array rotMatrix values to float _11~_44. calculate x, y, z and return float array[x, y, z]
+
+20.) public float[][] matrixMultiply(float[][] A, float[][] B)
+local variable : 
+int aRows = A.length;
+int aColumns = A[0].length;
+int bRows = B.length;
+int bColumns = B[0].length;
+
+<@\textcolor{dkgreen}  {Function:}@> calculate variables. set multiple array C value. return C
+
+21.) protected void onDraw(Canvas canvas)
+
+<@\textcolor{dkgreen}  {Function:}@> Draw left, right eyes by using canvas class. Render eyes to screen. Draw screen divider
+Call method gameLoop()
+
+22.) public boolean onTouchEvent(MotionEvent motionEvent)
+<@\textcolor{dkgreen}  {Function:}@>Call method magnetPull(). return boolean false
+
+
+\end{lstlisting}
+
+
+
+
+
+\subsection{Software Module for Preference}
+
+\section{Use Cases}
+
 \end{document}
+
+
+
+
+
 
