@@ -373,49 +373,49 @@ Software modules used in the "Home Launcher" is describe in form of different ac
 }
 \begin{lstlisting}
 1.) private void onCreate(Bundle savedInstanceState)
-<@\textcolor{dkgreen}  {Function:}@> Called when the activity is starting. Calls method init()
+-<@\textcolor{dkgreen}  {Function:}@> Called when the activity is starting. Calls method init()
 
 2.) private void print(String request)
-<@\textcolor{dkgreen}  {Function:}@>prints out String request
+-<@\textcolor{dkgreen}  {Function:}@>prints out String request
 
 3.) private void updateTweens()
-<@\textcolor{dkgreen}  {Function:}@>calculate accelData by adding tweenStep into original accelData
+-<@\textcolor{dkgreen}  {Function:}@>calculate accelData by adding tweenStep into original accelData
 
 4.) private void prepareToLaunch()
-<@\textcolor{dkgreen}  {Function:}@>convert apps status to ready for launch by adjusting boolean startingApp to true
+-<@\textcolor{dkgreen}  {Function:}@>convert apps status to ready for launch by adjusting boolean startingApp to true
 
 5.) private void launchApp()
-<@\textcolor{dkgreen}  {Function:}@>adjust AudioManager or call method launch()
+-<@\textcolor{dkgreen}  {Function:}@>adjust AudioManager or call method launch()
 
 6.) private void makeImmersive()
-<@\textcolor{dkgreen}  {Function:}@>compare android version (target SDK_INT >= KITKAT) if true set system ui visibility
+-<@\textcolor{dkgreen}  {Function:}@>compare android version (target SDK_INT >= KITKAT) if true set system ui visibility
 
 7.) public boolean isMyAppLauncherDefault()
-<@\textcolor{dkgreen}  {Function:}@> add activity as a intent. add extra package to array list as an item
+-<@\textcolor{dkgreen}  {Function:}@> add activity as a intent. add extra package to array list as an item
 packageName.equals(activity.getPackageName())
 
 8.) public boolean onKeyDown(int keyCode, KeyEvent event)
-<@\textcolor{dkgreen}  {Function:}@> compare keyCode to KeyEvent¡¯s variables (back key, volume up/down key). return boolean.
+-<@\textcolor{dkgreen}  {Function:}@> compare keyCode to KeyEvent¡¯s variables (back key, volume up/down key). return boolean.
 
 9.) public boolean onCreateOptionsMenu(Menu menu)
-<@\textcolor{dkgreen}  {Function:}@> Inflate the menu. Add items to the action bar if it is present
+-<@\textcolor{dkgreen}  {Function:}@> Inflate the menu. Add items to the action bar if it is present
 
 10.) public boolean onOptionsItemSelected(MenuItem item)
-<@\textcolor{dkgreen}  {Function:}@>compare MenuItem item¡¯s id to boolean which is calculated by R.id.action_settings or parent¡¯ onOptionsItemSelected(Item)
+-<@\textcolor{dkgreen}  {Function:}@>compare MenuItem item¡¯s id to boolean which is calculated by R.id.action_settings or parent¡¯ onOptionsItemSelected(Item)
 	
 11.) protected void onResume()
-<@\textcolor{dkgreen}  {Function:}@> for activity to start interacting with the user.
+-<@\textcolor{dkgreen}  {Function:}@> for activity to start interacting with the user.
 calls private SensorManager mSensorManager¡¯s method registerListner that return true if the sensor is supported and successfully enabled.
 
 12.) protected void onPause()
-<@\textcolor{dkgreen}  {Function:}@>called as part of the activity lifecycle when an activity is going into the background, but has not (yet) been killed.
+-<@\textcolor{dkgreen}  {Function:}@>called as part of the activity lifecycle when an activity is going into the background, but has not (yet) been killed.
 calls private SensorManager mSensorManager¡¯s method unregisterListner that unregisters a listener for all sensors
 
 13.) public void onSensorChanged(SensorEvent sensorEvent)
-<@\textcolor{dkgreen}  {Function:}@> Calls when sensor values have changed
+-<@\textcolor{dkgreen}  {Function:}@> Calls when sensor values have changed
 
 14.) public void onAccuracyChanged(Sensor sensor, int i)
-<@\textcolor{dkgreen}  {Function:}@> Called when the accuracy of the registered sensor has changed.
+-<@\textcolor{dkgreen}  {Function:}@> Called when the accuracy of the registered sensor has changed.
 
 <@\textcolor{red}{public class MyView extends View\\ \\
 
@@ -438,10 +438,10 @@ Display dis = ((WindowManager)getApplicationContext().getSystemService(Context.W
         Canvas rEye = new Canvas(rEyeBit);
 
 15.) constructor public MyView(Context context)
-<@\textcolor{dkgreen}  {Function:}@> sets variable to super(context), paint, width, volumePanelWidth, height, timeOfLastFrame. calls method gameloop()
+-<@\textcolor{dkgreen}  {Function:}@> sets variable to super(context), paint, width, volumePanelWidth, height, timeOfLastFrame. calls method gameloop()
 
 16.) private void gameLoop()
-<@\textcolor{dkgreen}  {Function:}@> calls method move(), updateTweens, invalidate()
+-<@\textcolor{dkgreen}  {Function:}@> calls method move(), updateTweens, invalidate()
 if width is 0, then reset width, volumePanelWidth, height, cursorPosition
 if selectedApp is -1 calls for loop installedApps.size() times
 reset rectangle freeAllocate, selected, timeSelected
@@ -449,13 +449,13 @@ if starting app
 then calls method launchApp() or modify appStartAnimationPosition
 
 17.) public void magnetPull()
-<@\textcolor{dkgreen}  {Function:}@>adjust volume or reset rotation
+-<@\textcolor{dkgreen}  {Function:}@>adjust volume or reset rotation
 
 float headMatrix[] = new float[16];
 float headFloats[] = new float[3];
 
 18.) private void move()
-<@\textcolor{dkgreen}  {Function:}@> adjust volumePanelKnobPosition. set installedApps variable through for loop.
+-<@\textcolor{dkgreen}  {Function:}@> adjust volumePanelKnobPosition. set installedApps variable through for loop.
 
 19.) float[] getEulerFromMat(float[] rotMatrix)
 local variable : 
@@ -465,7 +465,7 @@ float _21, _22, _23, _24;
 float _31, _32, _33, _34;
 float _41, _42, _43, _44;
 
-<@\textcolor{dkgreen}  {Function:}@> set array rotMatrix values to float _11~_44. calculate x, y, z and return float array[x, y, z]
+-<@\textcolor{dkgreen}  {Function:}@> set array rotMatrix values to float _11~_44. calculate x, y, z and return float array[x, y, z]
 
 20.) public float[][] matrixMultiply(float[][] A, float[][] B)
 local variable : 
@@ -474,15 +474,15 @@ int aColumns = A[0].length;
 int bRows = B.length;
 int bColumns = B[0].length;
 
-<@\textcolor{dkgreen}  {Function:}@> calculate variables. set multiple array C value. return C
+-<@\textcolor{dkgreen}  {Function:}@> calculate variables. set multiple array C value. return C
 
 21.) protected void onDraw(Canvas canvas)
 
-<@\textcolor{dkgreen}  {Function:}@> Draw left, right eyes by using canvas class. Render eyes to screen. Draw screen divider
+-<@\textcolor{dkgreen}  {Function:}@> Draw left, right eyes by using canvas class. Render eyes to screen. Draw screen divider
 Call method gameLoop()
 
 22.) public boolean onTouchEvent(MotionEvent motionEvent)
-<@\textcolor{dkgreen}  {Function:}@>Call method magnetPull(). return boolean false
+-<@\textcolor{dkgreen}  {Function:}@>Call method magnetPull(). return boolean false
 
 
 \end{lstlisting}
@@ -491,7 +491,8 @@ Call method gameLoop()
 
 
 
-\subsection{Software Module for Preference}
+\subsection{Software Module of the }
+
 
 \section{Use Cases}
 
