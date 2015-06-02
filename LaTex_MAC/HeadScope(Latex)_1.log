@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  3 JUN 2015 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.22)  3 JUN 2015 03:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -468,64 +468,72 @@ Missing character: There is no ¡ in font cmr12!
 Missing character: There is no ± in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 Missing character: There is no ± in font cmr12!
-[6 <./magnet.png>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 260--267
+[6 <./magnet.png>]
+Missing character: There is no ¡ in font cmr12!
+Missing character: There is no ¯ in font cmr12!
+ [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--267
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
-[8] <HeadScope_APP.png, id=54, 500.87125pt x 366.36874pt>
+<Github.png, id=54, 1002.74625pt x 731.73375pt>
+File: Github.png Graphic file (type png)
+ <use Github.png>
+Package pdftex.def Info: Github.png used on input line 281.
+(pdftex.def)             Requested size: 2005.48761pt x 1463.46393pt.
+ [9 <./Github.png>] <HeadScope_APP.png, id=59, 500.87125pt x 366.36874pt>
 File: HeadScope_APP.png Graphic file (type png)
 
 <use HeadScope_APP.png>
-Package pdftex.def Info: HeadScope_APP.png used on input line 281.
+Package pdftex.def Info: HeadScope_APP.png used on input line 292.
 (pdftex.def)             Requested size: 250.435pt x 183.18391pt.
 
-</Users/DJYoon/Desktop/LaTex/Main.png, id=55, 224.037pt x 63.5976pt>
+</Users/DJYoon/Desktop/LaTex/Main.png, id=60, 224.037pt x 63.5976pt>
 File: /Users/DJYoon/Desktop/LaTex/Main.png Graphic file (type png)
 
 <use /Users/DJYoon/Desktop/LaTex/Main.png>
 Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/Main.png used on input lin
-e 287.
+e 298.
 (pdftex.def)             Requested size: 224.03644pt x 63.59743pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--295
+Underfull \hbox (badness 10000) in paragraph at lines 300--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--295
+Underfull \hbox (badness 10000) in paragraph at lines 300--306
 
  []
 
-<Jumper.png, id=56, 183.5658pt x 137.7948pt>
+<Jumper.png, id=61, 183.5658pt x 137.7948pt>
 File: Jumper.png Graphic file (type png)
  <use Jumper.png>
-Package pdftex.def Info: Jumper.png used on input line 300.
+Package pdftex.def Info: Jumper.png used on input line 311.
 (pdftex.def)             Requested size: 183.56534pt x 137.79445pt.
- [9 <./HeadScope_APP.png> </Users/DJYoon/Desktop/LaTex/Main.png> <./Jumper.png>
-]
-</Users/DJYoon/Desktop/LaTex/View.png, id=63, 247.6452pt x 103.587pt>
+ [10 <./HeadScope_APP.png> </Users/DJYoon/Desktop/LaTex/Main.png> <./Jumper.png
+>]
+</Users/DJYoon/Desktop/LaTex/View.png, id=68, 247.6452pt x 103.587pt>
 File: /Users/DJYoon/Desktop/LaTex/View.png Graphic file (type png)
 
 <use /Users/DJYoon/Desktop/LaTex/View.png>
 Package pdftex.def Info: /Users/DJYoon/Desktop/LaTex/View.png used on input lin
-e 305.
+e 316.
 (pdftex.def)             Requested size: 247.64458pt x 103.58675pt.
 
-<Cine.png, id=64, 198.0198pt x 247.1634pt>
+<Cine.png, id=69, 198.0198pt x 247.1634pt>
 File: Cine.png Graphic file (type png)
  <use Cine.png>
-Package pdftex.def Info: Cine.png used on input line 311.
+Package pdftex.def Info: Cine.png used on input line 322.
 (pdftex.def)             Requested size: 198.01932pt x 247.16278pt.
- [10 </Users/DJYoon/Desktop/LaTex/View.png> <./Cine.png>]
+ [11 </Users/DJYoon/Desktop/LaTex/View.png> <./Cine.png>]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
-) [11]
+) [12]
 Missing character: There is no ¡ in font cmtt10!
 Missing character: There is no ¯ in font cmtt10!
 Missing character: There is no ¡ in font cmtt10!
@@ -535,36 +543,36 @@ Missing character: There is no ¯ in font cmtt10!
 Missing character: There is no ¡ in font cmtt10!
 Missing character: There is no ¯ in font cmtt10!
 
-[12]
+[13]
 Missing character: There is no ¡ in font cmtt10!
 Missing character: There is no ¯ in font cmtt10!
 
-Overfull \hbox (176.36153pt too wide) in paragraph at lines 434--435
+Overfull \hbox (176.36153pt too wide) in paragraph at lines 445--446
 [][][][][][][][][][][][][][][][][][]  
  []
 
-[13] [14] (./HeadScope(Latex)_1.aux) ) 
+[14] [15] [16] (./HeadScope(Latex)_1.aux) ) 
 Here is how much of TeX's memory you used:
- 3865 strings out of 493117
- 55602 string characters out of 6135433
- 211323 words of memory out of 5000000
- 7279 multiletter control sequences out of 15000+600000
+ 3870 strings out of 493117
+ 55671 string characters out of 6135433
+ 211380 words of memory out of 5000000
+ 7283 multiletter control sequences out of 15000+600000
  10916 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,43p,1844b,1660s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb>
-Output written on HeadScope(Latex)_1.pdf (16 pages, 1218907 bytes).
+</usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb>
+Output written on HeadScope(Latex)_1.pdf (18 pages, 1510301 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
