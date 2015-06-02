@@ -220,16 +220,16 @@ If your viewer is using a magnet based input, use a neodymium ring magnet (at le
 \subsection{Requirement for Main page}
 \begin{enumerate}
 \item It would have five items
-\item Jumper
+\item Panorama
 \item 3D Cube
 \item Volume
 \item Preferences
 \item Exit
 \end{enumerate}
 
-\subsection{Requirement for Jumper}
+\subsection{Requirement for Panorama}
 \begin{enumerate}
-\item Click the Jumper Icon among the main page
+\item Click the Panorama Icon among the main page
 \item Show the photographs of tourist attraction on the wall
 \item To use gyroscope, users will  find the photograph which they want to go
 \item Users will choose the photograph by pulling down the Magnetic pulling
@@ -298,7 +298,7 @@ GitHub:\\
 \includegraphics{Main}
 \begin{enumerate}
 \item The Main App Page would have five applications:\\ \\
- Jumper\\
+ Panorama\\
  3D Cube\\
  Volume\\
  Preferences\\
@@ -307,11 +307,11 @@ GitHub:\\
 \end{enumerate}
 
 %subsubsection 5
-\subsection{Specification of Jumper}
+\subsection{Specification of Panorama}
 \includegraphics{Jumper}
 
 \begin{enumerate}
-\item The Jumper application will allow users to view an image in a 360 degree angle. This will give them a full view from the side to the back of an image by turning their head around. Jumper can give the users the experience to actually feel like their in that place. 
+\item The Panorama application will allow users to view an image in a 360 degree angle. This will give them a full view from the side to the back of an image by turning their head around. Panorama can give the users the experience to actually feel like their in that place. 
 \item By using gyroscope, users will find the attraction place which they want to go and will choose the photograph.\\
 \includegraphics{View}
 \item Since the image needs to be 360 degrees there are a limited number of images that we will be implementing. In addition, users are unable to upload their own image. However, our team will continue to update pictures from the famous attraction places such as: Namsan, Eiffel Tower, and even Egypt's Pyramids.
@@ -498,11 +498,19 @@ Call method gameLoop()
 
 \end{lstlisting}
 
+\newpage \subsection*{Software Module of Panorama}
 
-
-\newpage \subsection*{Software Module}
-
-\end{document}
+MainActivity
+\begin{itemize}\item Act as main class\item Attach current view to cardboard view class\item Attach current view renderer to renderer class\end{itemize}MyRenderer
+\begin{itemize}\item Input drawable resource to current scene by using initScene()
+\end{itemize}Rajawali 
+\begin{itemize}\item 3D engine for Android based on OpenGL ES 2.0/3.0.\end{itemize}RajawaliCardboardView
+\begin{itemize}\item View class which attach current context
+\end{itemize}
+\begin{itemize}\item IRajawaliSurface is an Interface which all rendering surfaces must implement so that RajawaliRenderer may send the few control signals it needs.\end{itemize}RajawaliCardboardRenderer
+\begin{itemize}\item Apply the eye transformation to the camera\item Call openGL10 as a object, define openGL methods\item Called as the user performs touch-screen interaction with the window that is currently showing this wallpaper
+\end{itemize}
+\end{document}
 
 
 
